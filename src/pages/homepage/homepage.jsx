@@ -7,10 +7,10 @@ import PricingCart from '../../components/PricingCart/pricingcart.component'
 import Deck from '../../components/WebsiteCart/websitecart.component'
  const Homepage = () => ( 
 
-        <div>
+        <div >
             <Home1/>
-            <Home2/>
             <PricingCart/>
+            <Home2/>
             <Deck/>
         </div>
 )

@@ -4,7 +4,7 @@ import img from '../../../assets/img/hero/hero_right.png'
 import './home.styles.css'
 const Home1 = () => (
     <div>
-    <Grid container>
+    <Grid container >
     <Grid container lg={6} xs={12} alignItems="center">
         <Grid item class="deneme">
             <span   class="" >App Landing Page</span>
