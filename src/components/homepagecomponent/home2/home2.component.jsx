@@ -5,19 +5,19 @@ import Grid from '@material-ui/core/Grid';
 const Home2 = () => (
    
             <Grid container className = 'home2'>
-                <Grid item lg={6} xs={0} >
+                <Grid container justify='center' lg={6} xs={0} >
                     <img src={img} alt=""/>
                 </Grid>
                 <Grid container lg={6} xs={12} className='yazilar'>
                     
-                        <div class="row">
+                        
                                 <div class="section-tittle">
                                     <h2>Some of the best features Of Our App!</h2>
                                 </div>
                             
-                        </div>
+                        
 
-                        <div class="row">
+                        
                             <Grid container lg={6} xs={6} className='item-bottom'>
                                 
                                     <Grid item lg={3} xs={3} >
@@ -63,7 +63,7 @@ const Home2 = () => (
                                 
                             </Grid>
                              
-                        </div>
+                       
                     
                 </Grid>
             </Grid>

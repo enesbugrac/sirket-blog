@@ -1,8 +1,6 @@
 
 
-.deneme{
-    padding-right: 40px;
-}
+
 
 *, ::after, ::before {
     box-sizing: border-box;
@@ -53,6 +51,9 @@ div {
 }
 .slider-area .hero__caption {
     position: relative;
+}
+.itemler{
+    padding-left: 20%;
 }
 
 *, ::after, ::before {
@@ -137,6 +138,10 @@ p {
 a{
     text-decoration: none !important;
 }
+.home1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 p {
     display: block;
     margin-block-start: 1em;
@@ -145,7 +150,7 @@ p {
     margin-inline-end: 0px;
 }
 .radius-btn {
-    padding: 30px 43px !important;
+    padding: 20px 40px !important;
    border-radius: 30px !important ; 
 }
 .btn {

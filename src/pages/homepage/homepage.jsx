@@ -9,9 +9,9 @@ import Deck from '../../components/WebsiteCart/websitecart.component'
 
         <div >
             <Home1/>
-            <PricingCart/>
-            <Home2/>
             <Deck/>
+            <Home2/>
+            <PricingCart/>
         </div>
 )
 

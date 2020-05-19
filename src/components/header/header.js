@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import { FaApple,FaSignInAlt,FaSignOutAlt } from "react-icons/fa";
 import ListItem from "@material-ui/core/ListItem";
+import {Link} from 'react-router-dom';
 // core components
 import Header from "./header.ui.js";
 
@@ -16,20 +17,11 @@ import styles from "./navbarsStyle.js";
 const useStyles = makeStyles(styles);
 
 const HHeader=(props)=>{
-  
-  
-  
-  
-
-
-
-
-    const classes = useStyles();
+  const classes = useStyles();
   return(
-
-    <Header
+<Header
    
-    color="dark"
+    color="white"
     fixed
     changeColorOnScroll={{
         height: 400,
@@ -39,19 +31,15 @@ const HHeader=(props)=>{
     rightLinks={
       <List className={classes.list}>
         <ListItem className={classes.listItem}>
-         
-        
-          <Button
-           
+          <Link
             className={classes.navLink}
-            
             color="transparent"
-          
+            to="/pages"
           >
             
-            Discover
+            Pages
             <FaApple style={{marginLeft:5,marginBottom:2}}></FaApple>
-          </Button>
+          </Link>
         
         </ListItem>
         <ListItem className={classes.listItem}>
@@ -59,17 +47,17 @@ const HHeader=(props)=>{
           
           
            
-          <Button
+          <Link
             
             className={classes.navLink}
             
             color="transparent"
-          
+            to="/"
             
           >
             Log out
             <FaSignOutAlt style={{marginLeft:5}}></FaSignOutAlt>
-          </Button>
+          </Link>
         
         }
        
