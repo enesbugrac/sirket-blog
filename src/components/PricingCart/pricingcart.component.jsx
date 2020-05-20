@@ -3,8 +3,8 @@ import './pricingcart.styles.css'
 import Grid from '@material-ui/core/Grid'
 const PricingCart = () => (
     
-    <Grid container className="pricing-card-area">
-                    <Grid item lg={3} xs={6} className='card'>
+    <Grid container className="pricing-card-area" >
+                    <Grid item  md={3} xs={6} className='card'>
                         <div className="single-card text-center mb-30">
                             <div className="card-top">
                                 <span>2 Years</span>
@@ -21,7 +21,7 @@ const PricingCart = () => (
                             </div>
                         </div>
                     </Grid>
-                    <Grid item lg={3} xs={6} className='ortanca'>
+                    <Grid item md={3} xs={6} className='ortanca'>
                         <div className="single-card  text-center mb-30">
                             <div className="card-top">
                                 <span>2 Years</span>
@@ -39,7 +39,7 @@ const PricingCart = () => (
                             </div>
                         </div>
                     </Grid>
-                    <Grid item lg={3} xs={6} className='card'>
+                    <Grid item md={3} xs={6} className='card'>
                         <div className="single-card text-center mb-30">
                             <div className="card-top">
                                 <span>2 Years</span>

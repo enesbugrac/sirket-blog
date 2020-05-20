@@ -5,10 +5,10 @@ import Grid from '@material-ui/core/Grid';
 const Home2 = () => (
    
             <Grid container className = 'home2'>
-                <Grid container justify='center' lg={6} xs={0} >
+                <Grid container justify='center' md = {6}   >
                     <img src={img} alt=""/>
                 </Grid>
-                <Grid container lg={6} xs={12} className='yazilar'>
+                <Grid container md={6} xs={12} className='yazilar'>
                     
                         
                                 <div class="section-tittle">
@@ -18,45 +18,45 @@ const Home2 = () => (
                         
 
                         
-                            <Grid container lg={6} xs={6} className='item-bottom'>
+                            <Grid container  md={6} xs={6} className='item-bottom'>
                                 
-                                    <Grid item lg={3} xs={3} >
+                                    <Grid item md={3} xs={3} >
                                         <span class="flaticon-support"></span>
                                     </Grid>
-                                    <Grid item lg={9} xs={9}>
+                                    <Grid item  md={9} xs={9}>
                                         <h3>Easy to Costomize</h3>
                                         <p>Aorem psum olorsit amet ectetur adipiscing elit, sed dov.</p>
                                     </Grid>
                                 
                             </Grid>
-                            <Grid container lg={6} xs={6}className='item-bottom'>
+                            <Grid container   md={6} xs={6}className='item-bottom'>
                                 
-                                    <Grid item lg={3} xs={3} >
+                                    <Grid item md={3} xs={3} >
                                         <span class="flaticon-support"></span>
                                     </Grid>
-                                    <Grid item lg={9} xs={9}>
+                                    <Grid item md={9} xs={9}>
                                         <h3>Extreme Security</h3>
                                         <p>Aorem psum olorsit amet ectetur adipiscing elit, sed dov.</p>
                                     </Grid>
                                 
                             </Grid> 
-                            <Grid container lg={6} xs={6}className='item-bottom'>
+                            <Grid container   md={6}xs={6}className='item-bottom'>
                                 
-                                    <Grid item lg={3} xs={3}>
+                                    <Grid item md={3} xs={3}>
                                         <span class="flaticon-support"></span>
                                     </Grid>
-                                    <Grid item lg={9} xs={9}>
+                                    <Grid item md={9} xs={9}>
                                         <h3>Customer Support</h3>
                                         <p>Aorem psum olorsit amet ectetur adipiscing elit, sed dov.</p>
                                     </Grid>
                                 
                             </Grid>
-                            <Grid container lg={6} xs={6}className='item-bottom'>
+                            <Grid container  md={6} xs={6}className='item-bottom'>
                                 
-                                    <Grid item lg={3} xs={3}>
+                                    <Grid item md={3} xs={3}>
                                         <span class="flaticon-support"></span>
                                     </Grid>
-                                    <Grid item lg={9} xs={9}>
+                                    <Grid item md={9} xs={9}>
                                         <h3>Creative Design</h3>
                                         <p>Aorem psum olorsit amet ectetur adipiscing elit, sed dov.</p>
                                     </Grid>

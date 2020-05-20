@@ -15,6 +15,7 @@
 }
 .pricing-card-area {
     display: flex;
+    flex-wrap: unset !important;
     margin-top: 100px;
     align-items: center;
     justify-content: center;
@@ -154,7 +155,7 @@ li {
     text-transform: uppercase;
 }
 .btn {
-    background: #f9218d;
+    background: #f9218d !important;
     -moz-user-select: none;
     text-transform: capitalize;
     color: #fff;
