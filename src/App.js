@@ -5,7 +5,7 @@ import Homepage from './pages/homepage/homepage'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PagesPage from './pages/pages-page/pages-page.component'
 import { Switch , Route } from 'react-router-dom';
-
+import ContactUs from './pages/contactpage/contactpage.component'
 const App = () => (
   
     <div className='body'>
@@ -13,6 +13,7 @@ const App = () => (
       <Switch>
         <Route exact path = '/' component = {Homepage} />
         <Route path = '/pages' component={PagesPage}/>
+        <Route path = '/contact' component={ContactUs}/>
       </Switch>
      
     </div>

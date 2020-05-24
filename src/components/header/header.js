@@ -43,6 +43,18 @@ const HHeader=(props)=>{
         
         </ListItem>
         <ListItem className={classes.listItem}>
+          <Link
+            className={classes.navLink}
+            color="transparent"
+            to="/contact"
+          >
+            
+            Contact
+            <FaApple style={{marginLeft:5,marginBottom:2}}></FaApple>
+          </Link>
+        
+        </ListItem>
+        <ListItem className={classes.listItem}>
           {
           
           
@@ -58,6 +70,7 @@ const HHeader=(props)=>{
             Log out
             <FaSignOutAlt style={{marginLeft:5}}></FaSignOutAlt>
           </Link>
+          
         
         }
        
