@@ -6,7 +6,8 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import img from '../../assets/img/hero/hero_right.png'
+import img from '../../assets/img/deneme.jpg'
+import './webistecart.styles.css'
 const items = [
   {
     src: img,
@@ -52,6 +53,7 @@ const Deck = (props) => {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
+        className='deneme'
       >
         <img src={item.src} alt={item.altText} />
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
@@ -64,6 +66,7 @@ const Deck = (props) => {
       activeIndex={activeIndex}
       next={next}
       previous={previous}
+      className='deneme'
     >
       <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
