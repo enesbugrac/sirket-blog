@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
-import { FaApple,FaMailBulk,FaSignOutAlt,FaHome ,FaSearchengin} from "react-icons/fa";
+import { FaApple,FaSignInAlt,FaSignOutAlt } from "react-icons/fa";
 import ListItem from "@material-ui/core/ListItem";
 import {Link} from 'react-router-dom';
 // core components
@@ -31,7 +31,35 @@ const HHeader=(props)=>{
     rightLinks={
       <List className={classes.list}>
         <ListItem className={classes.listItem}>
-        <Link
+          <Link
+            className={classes.navLink}
+            color="transparent"
+            to="/pages"
+          >
+            
+            Pages
+            <FaApple style={{marginLeft:5,marginBottom:2}}></FaApple>
+          </Link>
+        
+        </ListItem>
+        <ListItem className={classes.listItem}>
+          <Link
+            className={classes.navLink}
+            color="transparent"
+            to="/contact"
+          >
+            
+            Contact
+            <FaApple style={{marginLeft:5,marginBottom:2}}></FaApple>
+          </Link>
+        
+        </ListItem>
+        <ListItem className={classes.listItem}>
+          {
+          
+          
+           
+          <Link
             
             className={classes.navLink}
             
@@ -39,42 +67,12 @@ const HHeader=(props)=>{
             to="/"
             
           >
-            Home
-            <FaHome style={{marginLeft:5}}></FaHome>
+            Log out
+            <FaSignOutAlt style={{marginLeft:5}}></FaSignOutAlt>
           </Link>
+          
         
-        
-        
-         
-        
-        </ListItem>
-        <ListItem className={classes.listItem}>
-        
-        <Link
-            className={classes.navLink}
-            color="transparent"
-            to="/pages"
-          >
-            
-            Pages
-            <FaSearchengin style={{marginLeft:5,marginBottom:2}}></FaSearchengin>
-          </Link> 
-         
-         
-         
-         
-        </ListItem>
-        <ListItem className={classes.listItem}>
-        <Link
-            className={classes.navLink}
-            color="transparent"
-            to="/contact"
-          >
-            
-            Contact
-            <FaMailBulk style={{marginLeft:5,marginBottom:2}}></FaMailBulk>
-          </Link>
-        
+        }
        
         </ListItem>
         <ListItem className={classes.listItem}>

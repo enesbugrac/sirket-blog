@@ -19,7 +19,7 @@ const PagesPage = () => {
         })
     },[])
 
-    return (<Grid container className='pagespage' style={{marginBottom:50}}>
+    return (<Grid container className='pagespage'>
             {siteler.map(dosya => <Grid item  className = 'cartlar' lg={6}> 
             <PagesCart siteler={dosya} />
             </Grid>)}

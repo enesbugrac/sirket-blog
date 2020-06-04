@@ -41,7 +41,7 @@ const headerStyle = {
   },
   container: {
     ...container,
-    minHeight: "30px",
+    minHeight: "50px",
     flex: "1",
     alignItems: "center",
     justifyContent: "space-between",
