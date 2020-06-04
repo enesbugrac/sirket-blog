@@ -17,7 +17,7 @@ const PricingCart = () => (
                                     <li>10 Free Optimization</li>
                                     <li>24/7  support</li>
                                 </ul>
-                                <a href="services.html" className="btn card-btn1">Get Started</a>
+                                <a href="services.html" className="btn card-btn1" style={{color:"white"}} >Get Started</a>
                             </div>
                         </div>
                     </Grid>
@@ -35,7 +35,7 @@ const PricingCart = () => (
                                     <li>10 Free Optimization</li>
                                     <li>24/7  support</li>
                                 </ul>
-                                <a href="services.html" className="btn card-btn1">Get Started</a>
+                                <a href="services.html" className="btn card-btn1" style={{color:"white"}} >Get Started</a>
                             </div>
                         </div>
                     </Grid>
@@ -52,7 +52,7 @@ const PricingCart = () => (
                                     <li>10 Free Optimization</li>
                                     <li>24/7  support</li>
                                 </ul>
-                                <a href="services.html" className="btn card-btn1">Get Started</a>
+                                <a href="services.html" className="btn card-btn1" style={{color:"white"}} >Get Started</a>
                             </div>
                         </div>
                     </Grid>
