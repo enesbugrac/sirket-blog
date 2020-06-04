@@ -23,8 +23,7 @@
     "react-scripts": "3.4.1",
     "react-spring": "9.0.0-beta.3",
     "react-use-gesture": "5.0.0",
-    "reactstrap": "^8.4.1",
-    "resize-observer-polyfill": "^1.5.1"
+    "reactstrap": "^8.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
